@@ -17,6 +17,7 @@ class ApplicationService {
     }
 
     async get(id) {
+      console.log(id);
       const Application = this.mongoose.model('Application');
       const application = await Application.findOne({_id: id});
   
@@ -28,7 +29,7 @@ class ApplicationService {
       }
   
       console.log('Application fetched Successfully');
-      return application.data;
+      return application;
     }
   }
   
