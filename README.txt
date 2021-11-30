@@ -1,9 +1,10 @@
-Nodejs MongoDB
+nodejs-mongodb-schema
 
-is a example api with mongodb.
+is a example mongodb schema.
 
 Prerequisites:
 - nodejs 10.16
+- mongodb 4.4
 
 
 =====================================
